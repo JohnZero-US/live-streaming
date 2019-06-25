@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//导入react组件
+import React, { Fragment, useEffect } from "react";
+//导入路由组件
+import { BrowserRouter, Route } from "react-router-dom";
+//导入自定义HTML组件
+//导航栏
+import NavBar from "./components/layout/NavBar";
+import store from "./store";
+
+//Redux组件
+import { Provider } from "react-redux";
+
+//样式
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /* 加载store，加载redux */
+    <Provider store={store}>
+      {/* 路由 */}
+      <BrowserRouter>
+        <Fragment>
+          {/* 导航栏 */}
+          <NavBar />
+        </Fragment>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
