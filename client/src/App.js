@@ -5,12 +5,16 @@ import { BrowserRouter, Route } from "react-router-dom";
 //导入自定义HTML组件
 //导航栏
 import NavBar from "./components/layout/NavBar";
-import store from "./store";
+//横幅
+import Banner from "./components/layout/Banner";
 
 //Redux组件
 import { Provider } from "react-redux";
+import store from "./store";
 
 //样式
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 import "./App.css";
 
 function App() {
@@ -22,6 +26,8 @@ function App() {
         <Fragment>
           {/* 导航栏 */}
           <NavBar />
+          {/* 横幅 */}
+          <Banner />
         </Fragment>
       </BrowserRouter>
     </Provider>
