@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65bcd8dd-2255-434b-9415-08605a234e88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="65bcd8dd-2255-434b-9415-08605a234e88" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/user-account/target/" />
@@ -91,11 +89,6 @@
               <item name="live-streaming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="F:\WorkFiles\CompleteProject\live-streaming" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="live-streaming" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\WorkFiles\CompleteProject\live-streaming" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="client-static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -174,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561407931059</updated>
       <workItem from="1561407932466" duration="17950000" />
-      <workItem from="1561428933891" duration="3627000" />
+      <workItem from="1561428933891" duration="4226000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1561429032352</created>
@@ -201,7 +194,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21577000" />
+    <option name="totallyTimeSpent" value="22176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
